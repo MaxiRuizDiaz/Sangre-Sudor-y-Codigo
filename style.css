@@ -1,6 +1,7 @@
 body{
 	background-color: #ECECEC;
 }
+
 header {
 	position: fixed;
 	top: 0;
@@ -13,14 +14,6 @@ header {
 	align-items: center;
 	font-size: 20px;
 	color: white;
-}
-
-.linea {
-	line-height:0;
-}
-
-.logo {
-	position: cover;
 }
 
 img {
@@ -47,11 +40,26 @@ main {
 	margin-top: 120px
 }
 
-footer {
-	background-color: #503E3E
-}
-
 p {
 	border: solid 1px;
 	padding: 10px;
+}
+
+footer {
+	background-color: #503E3E;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	left: 0;
+	width: 100%;
+	position: absolute;
+}
+
+
+.linea {
+	line-height:0;
+}
+
+.logo {
+	position: cover;
 }
